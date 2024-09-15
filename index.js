@@ -7,7 +7,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     if (username === 'admin' && password === 'password') {
         console.log('Login bem-sucedido');
-        window.location.href = '/home'; 
+        window.location.href = 'html/home'; 
     } else {
         document.getElementById('errorMessage').style.display = 'block';
         setTimeout(() => {
