@@ -23,6 +23,9 @@ a {
   color: #3498db;
   text-decoration: none;
 }
+a:hover {
+  background-color: #2980b9;
+}
 .cadastro-form {
   background-color: white;
   padding: 40px;
