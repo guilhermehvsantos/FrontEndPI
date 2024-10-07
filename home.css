@@ -120,7 +120,7 @@ header {
 }
 
 .card-yellow {
-  background-color: #f1c40f;
+  background-color: #ffd634;
 }
 
 .card-blue {
@@ -132,7 +132,7 @@ header {
 }
 
 .img {
-  display: FLEX;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
