@@ -20,12 +20,21 @@ nav {
   color: white;
 }
 nav h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 10px;
   margin: 0;
   font-size: 1.5em;
   border-bottom: 1px solid #34495e;
 }
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -86,7 +95,7 @@ header {
   border-radius: 10px;
   color: white;
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .card:hover {
@@ -94,9 +103,8 @@ header {
 }
 
 .card-img {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
-  height: auto;
-  margin-right: 20px; /* Espaço entre a imagem e o conteúdo do card */
+  width: 100px; 
+  margin-right: 20px; 
 }
 
 .card-content {
@@ -114,13 +122,12 @@ header {
   font-weight: bold;
 }
 
-/* Estilizando cores diferentes para os cards */
 .card-green {
   background-color: #3a813e;
 }
 
 .card-yellow {
-  background-color: #c8c243;
+  background-color: #fba505e0;
 }
 
 .card-blue {
